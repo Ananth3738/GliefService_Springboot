@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GliefServiceApplication {
 
+	/*
+	Spring boot start application
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(GliefServiceApplication.class, args);
 	}
