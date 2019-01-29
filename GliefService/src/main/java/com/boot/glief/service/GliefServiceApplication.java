@@ -2,10 +2,11 @@ package com.boot.glief.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.bind.annotation.RestController;
 
+@EnableJpaRepositories(basePackages = "com.boot.glief.service.repository")
 @SpringBootApplication
-@RestController
 public class GliefServiceApplication {
 
 	/*
