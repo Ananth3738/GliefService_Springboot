@@ -23,8 +23,7 @@ public class ConfigureResource {
     private static final int PORT = 8080;
     @Autowired
     ConfigureRespository configureRespository;
-//access.net.abnamro.com/accelerated_pac_base.pac
-    private final String PROXY_URL = "nl-userproxy-access.net.abnamro.com";
+    private final String PROXY_URL = "proxy";
 
     @GetMapping("/getConfigure")
     public List<Configure> getAll() {
